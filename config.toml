@@ -1,3 +1,10 @@
 languageCode = "en-us"
+
+contentDir: "content"
+layoutDir: "layouts"
+publishDir: "publish"
+
 title = "Kubernetes on Raspberry PI"
 baseURL = "http://k8s-on-raspberry.github.io/kubernetes-on-raspberry-pi"
+
+canonifyURLs: true
