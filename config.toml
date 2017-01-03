@@ -1,10 +1,53 @@
+baseurl = "https://k8s-on-raspberry.github.io/kubernetes-on-rasbperry-pi"
 languageCode = "en-us"
+title = "Kubernetes on Rasbperry PI"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
 
-contentDir = "content"
-layoutDir = "layouts"
-publishDir = "publish"
+[params]
+	# General information
+	author = "jcorral"
+	description = "Kubernetes on Rasbperry PI"
+	copyright = "Released under the MIT license"
 
-title = "Kubernetes on Raspberry PI"
-baseURL = "http://k8s-on-raspberry.github.io/kubernetes-on-raspberry-pi"
+	# Repository
 
-canonifyURLs = true
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Roboto"
+    	code = "Roboto Mono"
+
+
+[social]
+	twitter = ""
+	github  = "k8s-on-raspberry"
+
+
+[[menu.main]]
+	name   = "Installation"
+	url    = "/"
+	weight = 0
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
